@@ -313,3 +313,15 @@ body {
     justify-content: center;
 }
 
+.error-text {
+  color: #d00000;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+.table-row {
+  margin-bottom: 10px; /* kiek nori tarpo */
+}
+
+

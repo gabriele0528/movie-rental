@@ -18,13 +18,13 @@
       <strong>Movie rental</strong>
     </div>
 
-    <div class="sign-in-card">
+    <form class="sign-in-card" id="loginForm">
       <div class="d-flex d-column">
 
         <span>
           Email
         </span>
-        <input type="email" placeholder="email">
+        <input type="email" id="loginEmail" placeholder="email">
 
 
       </div>
@@ -34,10 +34,12 @@
         <span>
           Password
         </span>
-        <input type="password" placeholder="password">
+        <input type="password" id="loginPassword" placeholder="password">
 
 
       </div>
+
+      <div id="loginError" class="error-text"></div>
 
       <div class="d-flex j-center">
 
@@ -51,17 +53,17 @@
 
 
 
-    </div>
+    </form>
 
 
 
-    <div class="register-card">
+    <form class="register-card" id="registerForm">
       <div class="d-flex d-column">
 
         <span>
           Name
         </span>
-        <input type="text" placeholder="name">
+        <input type="text" id="regName" placeholder="name">
 
 
       </div>
@@ -71,7 +73,7 @@
         <span>
           Surname
         </span>
-        <input type="text" placeholder="surname">
+        <input type="text" id="regSurname" placeholder="surname">
 
 
       </div>
@@ -81,7 +83,7 @@
         <span>
           Email
         </span>
-        <input type="email" placeholder="email">
+        <input type="email" id="regEmail" placeholder="email">
 
 
       </div>
@@ -91,7 +93,7 @@
         <span>
           Email again
         </span>
-        <input type="email" placeholder="email">
+        <input type="email" id="regEmail2" placeholder="email">
 
 
       </div>
@@ -101,7 +103,7 @@
         <span>
           Password
         </span>
-        <input type="password" placeholder="password">
+        <input type="password" id="regPassword" placeholder="password">
 
 
       </div>
@@ -111,23 +113,25 @@
         <span>
           Password again
         </span>
-        <input type="password" placeholder="password">
+        <input type="password" id="regPassword2" placeholder="password">
 
 
       </div>
+
+      <div id="registerErrors" class="error-text"></div>
 
       <div class="d-flex j-center">
 
-        <a href="home.html">
+        
           <button class="grey-button">Register</button>
-        </a>
+        
       </div>
 
 
 
 
 
-    </div>
+    </form>
 
 
   </div>
@@ -147,6 +151,7 @@
 
   </div>
 
+<script src="login.js" defer></script>
 
 </body>
 

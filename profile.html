@@ -40,9 +40,9 @@
                 <div class="grow-2 details-card">
 
 
-                    <span><strong>Name: </strong>John</span>
-                    <span><strong>Surname: </strong>Newman</span>
-                    <span><strong>Email: </strong>john.newman@mail.com</span>
+                    <span><strong>Name: </strong><span id="profileName"></span></span>
+                    <span><strong>Surname: </strong><span id="profileSurname"></span></span>
+                    <span><strong>Email: </strong><span id="profileEmail"></span></span>
 
 
                 </div>
@@ -55,13 +55,13 @@
 
                 <div class="grow-1 image-card">
 
-                    <button class="grey-button">Reset password</button>
+                    <button class="grey-button" id="resetPasswordBtn">Reset password</button>
                 </div>
 
 
 
                 <div class="grow-2">
-                    <button class="grey-button">Reset email</button>
+                    <button class="grey-button" id="resetEmailBtn">Reset email</button>
 
                 </div>
 
@@ -115,6 +115,8 @@
 
 
     </div>
+
+    <script src="profile.js" defer></script>
 
 </body>
 
