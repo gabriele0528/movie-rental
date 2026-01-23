@@ -321,7 +321,21 @@ body {
 
 
 .table-row {
-  margin-bottom: 10px; /* kiek nori tarpo */
+  margin-bottom: 10px; 
+}
+
+
+.logout-btn {
+  margin-left: auto;
+  border: none;
+  background: transparent;
+  color: #D9D9D9;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  font-weight: 600;
 }
 
 
